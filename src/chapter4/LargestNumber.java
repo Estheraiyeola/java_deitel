@@ -15,9 +15,6 @@ public class LargestNumber {
             if (number > largest){
                 largest = number;
             }
-            else {
-                largest = largest;
-            }
             counter++;
         }
         System.out.println(largest);
